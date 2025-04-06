@@ -6,6 +6,7 @@
 
 **Bill Of Materials**
 
-![image](https://github.com/user-attachments/assets/a9ea966e-8493-4f03-91d2-9bb0e06f5fa8)
+![image](https://github.com/user-attachments/assets/06a7cd74-171f-486c-9443-e97a9c5d8095)
+
 
 
