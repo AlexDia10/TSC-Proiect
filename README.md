@@ -1,10 +1,10 @@
 # TSC-Proiect
 
-**Schema Bloc**
+## Schema Bloc
 
 ![image](https://github.com/user-attachments/assets/04497d2d-6533-4110-9487-8374a65ec72b)
 
-**Bill Of Materials**
+## Bill Of Materials
 
 | Parts                                 | Qty | CHECK_PRICE                                                                                                 | DATASHEET                                   |
 |---------------------------------------|-----|--------------------------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -52,7 +52,7 @@
 | U1                                    | 1   | [SnapEDA](https://www.snapeda.com/parts/W25Q512JV/Winbond+Electronics/view-part/?ref=eda)                   |                                             |
 | IC4                                  |     |                                                                                                              |                                             |
 
-**Specificații Hardware**
+## Specificații Hardware
 
 **🔹 1. Microcontroller – ESP32-C6-WROOM-1-N8**
 
