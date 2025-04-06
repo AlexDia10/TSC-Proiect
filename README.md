@@ -26,40 +26,41 @@
 
 **🔹 2. Alimentare**
 
-Încărcare: MCP73831 (100–500 mA), LED stare (GPIO18)
+**Încărcare:** MCP73831 (100–500 mA), LED stare (GPIO18)
 
-LDO: BD5229G-TR (eficiență 92%, ripple <50mV)
+**LDO:** BD5229G-TR (eficiență 92%, ripple <50mV)
 
-Fuel Gauge: MAX17048 (±1% SOC, alertă critică, 7 µA consum)
+**Fuel Gauge:** MAX17048 (±1% SOC, alertă critică, 7 µA consum)
 
 **🔹 3. Senzori**
 
-BME680 (I²C, 0x76): temp., umiditate, presiune, VOC/eCO₂
+**BME680 (I²C, 0x76):** temp., umiditate, presiune, VOC/eCO₂
 
 Algoritm IAQ (BSEC), compensare termică, calibrare din fabrică
 
-RTC – DS3231SN#: ±2ppm, backup cu supercondensator, alarmă, square wave
+**RTC – DS3231SN#:** ±2ppm, backup cu supercondensator, alarmă, square wave
 
 **🔹 4. Afișaj E-Ink** – 7.5", 800×480 px
-Interfață: SPI + CS/DC/RST/BUSY
 
-Consum: 15–25 mA la refresh, 0 mA static
+**Interfață:** SPI + CS/DC/RST/BUSY
 
-Avantaj: imagine persistentă fără consum
+**Consum:** 15–25 mA la refresh, 0 mA static
+
+**Avantaj:** imagine persistentă fără consum
 
 **🔹 5. Interfețe & Stocare**
 
-USB-C: alimentare, serial console, DFU update (ESD + Polyfuse 500 mA)
+**USB-C:** alimentare, serial console, DFU update (ESD + Polyfuse 500 mA)
 
-Qwiic I²C: extensii senzori/modul
+**Qwiic I²C:** extensii senzori/modul
 
-MicroSD: loguri/fișiere, SPI/SD
+**MicroSD:** loguri/fișiere, SPI/SD
 
-Flash externă: W25Q512JVEIQ (quad SPI, aplicații mari)
+**Flash externă:** W25Q512JVEIQ (quad SPI, aplicații mari)
 
 **🔹 6. Interacțiune**
 
-Butoane: 3× tactile (navigare/selectare/back), debouncing HW/SW
+**Butoane:** 3× tactile (navigare/selectare/back), debouncing HW/SW
 
 **🔹 7. Interfețe Utilizate**
 
