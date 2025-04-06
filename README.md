@@ -11,6 +11,7 @@
 **Specificații Hardware**
 
 **🔹 1. Microcontroller – ESP32-C6-WROOM-1-N8**
+
 **CPU:** RISC-V 32-bit, 160 MHz (single-core)
 
 **Memorie:** 320KB SRAM, 512KB ROM, 8MB Flash SPI (W25Q512JVEIQ)
@@ -24,6 +25,7 @@
 **Wake-up:** GPIO, RTC, UART, senzor BME680
 
 **🔹 2. Alimentare**
+
 Încărcare: MCP73831 (100–500 mA), LED stare (GPIO18)
 
 LDO: BD5229G-TR (eficiență 92%, ripple <50mV)
@@ -31,6 +33,7 @@ LDO: BD5229G-TR (eficiență 92%, ripple <50mV)
 Fuel Gauge: MAX17048 (±1% SOC, alertă critică, 7 µA consum)
 
 **🔹 3. Senzori**
+
 BME680 (I²C, 0x76): temp., umiditate, presiune, VOC/eCO₂
 
 Algoritm IAQ (BSEC), compensare termică, calibrare din fabrică
@@ -45,6 +48,7 @@ Consum: 15–25 mA la refresh, 0 mA static
 Avantaj: imagine persistentă fără consum
 
 **🔹 5. Interfețe & Stocare**
+
 USB-C: alimentare, serial console, DFU update (ESD + Polyfuse 500 mA)
 
 Qwiic I²C: extensii senzori/modul
@@ -54,9 +58,11 @@ MicroSD: loguri/fișiere, SPI/SD
 Flash externă: W25Q512JVEIQ (quad SPI, aplicații mari)
 
 **🔹 6. Interacțiune**
+
 Butoane: 3× tactile (navigare/selectare/back), debouncing HW/SW
 
 **🔹 7. Interfețe Utilizate**
+
 Interfață	Componente
 SPI	E-Ink, Flash, SD Card
 I²C	BME680, MAX17048, DS3231, Qwiic
