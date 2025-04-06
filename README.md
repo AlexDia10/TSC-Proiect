@@ -50,7 +50,7 @@
 | TP1–TP17                              | 17  |                                                                                                              |                                             |
 | D1                                    | 1   | [SnapEDA](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda)                 |                                             |
 | U1                                    | 1   | [SnapEDA](https://www.snapeda.com/parts/W25Q512JV/Winbond+Electronics/view-part/?ref=eda)                   |                                             |
-| IC1A                                  |     |                                                                                                              |                                             |
+| IC4                                  |     |                                                                                                              |                                             |
 
 **Specificații Hardware**
 
